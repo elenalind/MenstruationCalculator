@@ -1,5 +1,6 @@
 # MenstruationCalculator
-Elena's Menstruation Calculator
+
+Menstruation Calculator
 
 A program that lets you introduce several previous menstruation dates, it calculates the average days between periods and estimates the next menstruation. 
 
