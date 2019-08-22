@@ -24,9 +24,10 @@ print ("Your average cycle length is:", int(sum_days / (len(argssplit) - 1)))
 last_mens = datetime.strptime(argssplit[len(argssplit)-1], '%d.%m.%Y')
 next_mens = last_mens + timedelta(days=cyclelength)
 print ("Your next menstrutation will probably be on:", next_mens)
-
+next_next_mens = next_mens + timedelta(days=cyclelength)
+print ("Your second next menstrutation will probably be on:", next_next_mens)
 
 
 # Throw Warning if more than 30 days between mens days. The user can doublecheck the input.
 # Throw Warning if for option two, the period lenght is too long, >30 days
-
+# Calculate even the next next mens
